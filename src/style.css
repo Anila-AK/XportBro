@@ -1,0 +1,963 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Flamenco", cursive;
+  font-size: 20px;
+}
+body {
+  color: whitesmoke;
+  overflow-x: hidden;
+  background: #f8f9fa !important;
+}
+#bheader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url(../assets/fractal-2880199_1280.jpg);
+  width: 100%;
+  height: 660px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand {
+  border-radius: 50%;
+  border: solid 1px #c75517;
+  padding: 2px 7px;
+}
+.nav-link {
+  color: #7d6a60;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(206, 202, 202);
+    text-decoration: none;
+    color: #c75517;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.headerset {
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  top: 50%;
+  padding-top: 180px;
+  box-sizing: border-box;
+}
+.headerset h1 {
+  font-size: 270%;
+  font-weight: bold;
+}
+
+.changecolor {
+  animation: changecolorthapa 1s infinite;
+  font-size: 100%;
+}
+
+@keyframes changecolorthapa {
+  0% {
+    color: #c75517;
+  }
+  25% {
+    color: #fff;
+  }
+  50% {
+    color: #c75517;
+  }
+  100% {
+    color: #7d6a60;
+  }
+}
+
+/* search bar  */
+.row-1 {
+  margin-left: 220px;
+}
+.form-box {
+  /* background: rgba(0, 0, 0, 0.2); */
+  position: relative;
+  border-radius: 25px;
+  margin-right: 1px;
+}
+
+.search-field {
+  height: 50px;
+  padding: 30px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border-radius: 20px; */
+}
+.business {
+  /* width: 70%;
+    margin-left: 10px; */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.dropdownsearch ul {
+  list-style: none;
+}
+.dropdownsearch ul li a {
+  text-decoration: none;
+  color: #c75517;
+}
+.dropdownsearch ul li a:hover {
+  color: #444444;
+}
+.business:hover {
+  border-radius: 25px;
+}
+.location {
+  width: 40%;
+}
+.location:hover {
+  border-radius: 25px;
+}
+
+.search-btn {
+  height: 60px;
+  width: 7%;
+  border: none;
+  color: #7d6a60;
+  /* border-radius: 20px; */
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.search-btn:hover {
+  cursor: pointer;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+/* section 0 */
+.section-0 {
+  padding-top: 20px;
+  background: var(--bggradient);
+}
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #c75517, #7d6a60);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+.basicservices p {
+  margin-top: 20px;
+}
+.basicservices a {
+  text-decoration: none;
+  color: #444444;
+}
+.basicservices a:hover {
+  text-decoration: none;
+  color: #eee2dc;
+  cursor: pointer;
+}
+
+/* section 1 our top services */
+.ourtopservices {
+  padding-top: 150px;
+  padding-bottom: 30px;
+  height: 700px;
+}
+.ourtopservices h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin-top: 50px !important;
+}
+.rowsetting h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.imgset i {
+  border-radius: 50%;
+  /* border-radius: 550px; */
+  height: 100px;
+  width: 100px;
+}
+/*  the services fas icons */
+.f1 {
+  padding-top: 20px !important;
+  background: var(--bggradient);
+}
+.f2 {
+  padding-top: 18px !important;
+  background: var(--bggradient);
+}
+.f3 {
+  padding-top: 25px !important;
+  background: var(--bggradient);
+}
+.rowsetting p {
+  color: #444444 !important;
+  padding: 10px;
+}
+
+/* section 2 */
+.cardclasx {
+  background: #eee2dc;
+  padding: 100px 0px 50px;
+  height: 1100px;
+  width: 100%;
+}
+.cardclasx h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card {
+  margin: 0px, 0px;
+}
+.card .card-img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.cardclasx .row {
+  margin-top: 70px;
+}
+.card .cardimg {
+  width: 100%;
+  height: 377px;
+}
+.card-body {
+  height: 377px;
+  text-align: center;
+  margin: 0px 60px;
+}
+
+/* section 3 */
+
+.team {
+  height: 700px;
+  padding: 100px 0px 60px;
+  width: 100%;
+}
+.team h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.teamset {
+  margin-top: 70px !important;
+}
+
+/* slidshow */
+.sliderbarheader {
+  margin: 92px 5px;
+  font-weight: bold;
+}
+#carouselExampleIndicators {
+  width: 100%;
+}
+.carousel-item {
+  height: 600px !important;
+}
+.slidetext {
+  font-weight: bold;
+  color: #c75517 !important;
+  font-size: 50px !important;
+  padding-bottom: 400px !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background: var(--bggradient) !important;
+  border-radius: 80% !important;
+}
+.arrows1 {
+  background: var(--bggradient) !important;
+  width: 115px !important;
+  /* height: 2px !important;  */
+}
+
+/* footer */
+.footer {
+  height: 50px;
+}
+.footer h6 {
+  line-height: 50px;
+  padding-top: 5px;
+}
+
+/* ---------------------------contact us ----------------------------------- */
+.con {
+  padding-top: 110px;
+  margin-top: 30px;
+
+  font-size: 50px !important;
+}
+.con1 {
+  padding-top: 10px;
+}
+.card {
+  width: 100%;
+  height: 700px;
+}
+.formss {
+  margin-top: 20px !important;
+}
+
+.formss input,
+.formss textarea {
+  width: 390px;
+  height: 40px;
+
+  border: 1px #ddd solid;
+}
+.formss .tit {
+  margin-top: 10px;
+}
+
+.formss textarea {
+  margin-top: 10px;
+  height: 100px;
+}
+/* This is CSS animation class called focus
+This class will put outline on give text box area*/
+
+.btn {
+  /* display: inline-block; */
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  /* transition: background-color 0.2s, border 0.2s, color 0.2s; */
+}
+.btnform , .btn-info, .info2 button {
+  background: var(--bggradient) !important;
+  border: whitesmoke 2px solid;
+  color: whitesmoke;
+
+  border: 1px #fff solid;
+}
+.btnform:hover {
+  background: #7d6a60 !important;
+}
+
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56%;
+  position: relative;
+  height: 0;
+}
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.sec-1 {
+  background: #eeeceb;
+}
+
+/* ----------sign up page------------------ */
+.section-2 {
+  margin-top: 30px;
+  color: #ddd;
+  margin-left: 10%;
+}
+.section-2 .navbar-brand {
+  margin-left: 50%;
+}
+.section-2 h4 {
+  color: #c75517 !important;
+  margin-left: 38%;
+  margin-top: 2%;
+}
+.signuptype {
+  text-decoration: none;
+
+  background: var(--bggradient) !important;
+  width: max-content;
+  padding: 10px 20px;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 30px;
+}
+.signuptype a {
+  color: #eee2dc;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signuptype a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.signuptype1 p {
+  margin-left: 40%;
+  margin-top: 20px;
+  color: #c75517;
+  font-weight: bold;
+}
+.signuptype3 {
+  /* margin-left: 50%; */
+  color: #afa49f;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.signuptype3 .Uname1 {
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.signuptype3 label {
+  font-weight: lighter;
+}
+.signuptype3 input {
+  min-height: 42px;
+  border: 1px solid #ddd;
+  padding-left: 20px;
+
+  font-size: 17px;
+}
+.signuptype3 .Uname2 {
+  padding-left: 80px;
+  min-height: 52px;
+  padding-top: 10px;
+}
+
+.signuptype3 .email label {
+  margin-right: 300px;
+  padding: 10px 2px;
+}
+.email input {
+  width: 535px;
+  margin-left: 60px;
+}
+.signuptype3 .signupbtn {
+  margin: 85px 50px !important;
+  background: var(--bggradient) !important;
+  margin: 10px, 50px;
+  color: #eee2dc;
+  width: 100% !important;
+}
+.signuptype3 .signupbtn:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* ----------sign in -------- */
+.checkbox label {
+  margin-left: 100px;
+  display: inline !important;
+  font-size: 20px !important;
+  color: #afa49f;
+}
+.login3 .checkbox input {
+  margin-left: 50px;
+  line-height: normal;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.forgetpass {
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.forgetpass a {
+  color: #c75517;
+}
+.forgetpass a:hover {
+  text-decoration: none;
+  color: #afa49f;
+}
+
+/* --------------profile page ------------ */
+.card-group {
+  margin-top: 30px;
+}
+.profile-card {
+  width: 520px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.image-conatiner {
+  position: relative;
+  padding: 10px;
+}
+.row h3 {
+  margin-top: 50px;
+  padding-left: 50px;
+  color: #c75517;
+}
+.disply-icon {
+  float: right;
+}
+.disply-icon i .fa-circle {
+  color: green !important;
+}
+
+.services {
+  padding: 30px;
+}
+.services ol li,
+ul {
+  margin-left: 20px;
+}
+
+.services .imgclass {
+  margin-left: 45px;
+}
+.services .imgclass .row {
+  height: 5px;
+}
+.services .imgclass .column {
+  height: auto;
+  width: 100px;
+}
+
+.services .imgclass img {
+  padding: 5px;
+}
+/* iframe */
+.ifrm h5 a {
+  color: #c75517;
+  text-decoration: none;
+}
+.ifrm h5 a:hover {
+  color: #7d6a60;
+  text-decoration: none;
+}
+.fa-star,
+.fa-star-half,
+.fa-grin-squint-tears,
+.fa-smile-wink {
+  color: #fec107;
+}
+.main-conatiner a {
+  color: #7d6a60;
+}
+.main-conatiner a:hover {
+  text-decoration: none;
+  color: #c75517;
+  font-weight: bold;
+}
+.profile-card p .star5 i {
+  padding-left: 50px;
+}
+
+/* --------------login-------------------- */
+.mainbar .row .btn
+{
+  margin-top:100px;
+   text-transform: initial;
+   background: #7d6a60;
+}
+.profile-info
+{
+  margin-top:100px;
+  
+}
+.info1
+{
+  background: #e9de7f;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: auto;
+  height: 200px;
+}
+.info1 button
+{
+  margin:5px 300px;
+
+ 
+  border: none;
+}
+.info2 button:hover
+{
+  background: #afa49f;
+  border: none;
+}
+.pro-edu 
+{
+  height: auto;
+  padding-bottom: 60px !important;
+}
+.education
+{
+  margin-top: 60px;
+
+}
+.education .table
+{
+  margin-top: 60px;
+  
+}
+.pro-info2 p
+{
+  font-size: 15px !important;
+  text-align: center;
+
+}
+.social-media
+{
+  margin-top: 60px;
+  font-weight: bold;
+
+}
+.social-media i
+{
+  margin-top: 20px;
+  padding: 10px 5px;
+ 
+
+}
+.prof-atag a
+{
+  text-decoration: none;
+  color: #444444;
+  margin-left:10px;
+
+}
+.prof-atag a:hover{
+  text-decoration: none;
+  color: #c75517;
+  cursor: pointer;
+}
+
+
+/* -----------------payment page----------- */
+.payment
+{
+  background: #afa49f;
+  max-width:380px;
+  margin:180px auto;
+  height:auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+}
+.payment h2
+{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #c75517 ;
+
+}
+.form .label
+{
+  display: block;
+  color:black;
+  margin-bottom: 6px;
+}
+.form .input 
+{
+  padding: 13px 5px;
+  width:250px;
+background:  whitesmoke ;
+  text-align: center;
+  border:2px solid #afa49f ;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-wrap: none;
+  outline: none;
+  font-size: 16px;
+  color: #c75517;
+
+}
+.card-grp .input {
+  width:140px;
+}
+.card-grp 
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card-item
+{
+  width:48%;
+}
+
+.icon-rel
+{
+  position: relative;
+}
+.icon-rel i{
+  position: relative;
+  bottom:12px;
+  left:15px;
+  font-size: 20px;
+  color:whitesmoke;
+ 
+}
+.form .paybtn
+{
+  margin: 40px 80px;
+  background: #c75517;
+  padding:15px 50px;
+  text-align: center;
+  color: whitesmoke;;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.payment-log 
+{
+  position: absolute;
+  top:-80px;
+  left:35%;
+  transform: translate(-50px);
+background: #c75517;
+border-radius: 50%;
+box-shadow:0 0 5px;
+text-align: center;
+line-height: 100px;
+
+}
+.payment-log::before{
+  content:"";
+  position: absolute;
+top:5px;
+left:5px;
+width:90px;
+background: chartreuse;
+border-radius: 50%;
+
+}
+.payment-log p
+{
+  color: violet;
+  position: relative;
+  font-size: 58px;
+  padding: 15px 10px;
+}
+
+/*--------------------------- responsive media query -------------------------*/
+@media (max-width: 575.98px) {
+  .headerset h1 {
+    padding-top: 30%;
+    font-size: 52px;
+    font-weight: bold;
+  }
+  .headerset h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .ourtopservices
+  {
+      visibility: hidden;
+      height: 0px;
+  }
+  .cardclasx {
+    height: 2700px;
+  }
+  .team {
+    height: 800px;
+  }
+  .cardclasx .names {
+    visibility: hidden;
+  }
+  .cardclasx .card {
+    height: fit-content;
+  }
+  .row-1 {
+    /* margin-left: 00px;
+        margin-right: 10px; */
+    margin-left: 40px;
+  }
+  .footer
+  {
+    visibility: visible;
+  }
+
+  .location {
+    width: 130px;
+  }
+
+  .business {
+    width: 155px;
+  }
+  .search-btn {
+    width: 55px;
+  }
+  .section-0,
+  .carousel {
+    /* display: block !important; */
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cardclasx {
+    height: 2800px;
+  }
+  .team {
+    height: 100px;
+  }
+  .ourtopservices
+  {
+      visibility: hidden;
+      height: 0px;
+  }
+  .row-1 {
+    margin-left: 10px;
+  }
+  .footer {
+    margin-top: 1100px;
+  }
+  .cardclasx .card {
+    height: fit-content;
+  }
+  .section-0,
+  .carousel {
+    /* display: block !important; */
+    visibility: hidden;
+    height: 0px;
+  }
+  
+/* sign up  */
+.signuptype3 .email label
+{ margin: auto; 
+}
+.signuptype3 #pass label
+{ margin-top: 30px; 
+}
+.signuptype3 #cpass label
+{ display: inline;
+  
+}
+
+.signuptype3
+{
+  margin-right:15px;
+}
+
+.signuptype1
+{
+  visibility: hidden;
+  
+}
+.signuptype
+{
+  margin-bottom: 0px;
+
+}
+.signuptype3
+{
+  margin-top: 0px;
+}
+.subnav
+{
+  width: fit-content;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row-1 {
+    margin-left: 100px;
+  }
+
+  .ourtopservices{
+    height: 800px;
+    
+  }
+  .ourtopservices h1 {
+    font-size: 40px;
+  }
+
+  .cardclasx {
+    height: 1500px;
+  }
+  .team {
+    height: 700px;
+  }
+  .card-text,
+  .names {
+    visibility: hidden;
+  }
+  .card .card-img {
+    margin: 100px 20px;
+  }
+  .cardclasx .card {
+    height: fit-content;
+  }
+/* sign up  */
+.signuptype3 .email label
+{ margin: auto; 
+}
+.signuptype3 #pass label
+{ margin-top: 30px; 
+}
+.signuptype3 #cpass label
+{ display: inline;
+  
+}
+
+.signuptype1
+{
+  visibility: hidden;
+}
+.signuptype
+{
+  margin-bottom: 0px;
+
+}
+.signuptype3
+{
+  margin-top: 0px;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cardclasx {
+    height: 1600px;
+  }
+  .team {
+    height: 800px;
+  }
+  .cardclasx .card {
+    height: fit-content;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardclasx {
+    height: 1500px;
+  }
+  .cardclasx .card {
+    height: fit-content;
+  }
+}

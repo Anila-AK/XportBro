@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>XpertBro! | Welcome</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../src/myjquery.js"></script>
+    <script src="../src/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <!-- here comes navbar  expand lg will allow 
+        <li> to disappear in mobile view -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <!-- to link logo image to somewhere a tag with brand class of BS -->
+                <a class="navbar-brand" href="/src/index.html">
+                    <img class="img-fluid" src="../assets/Picture1.png" width="100" height="40"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- displays icon for the menu dropdown in smaller size -->
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse  text-left" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../src/payment.html">Make Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Browse Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../src/contact.html">
+                                <i class="fas fa-envelope">
+                                </i></a>
+                        </li>
+
+                        <div class="btn-group dropleft">
+                            <a class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+
+                            </a>
+                            <div class="dropdown-menu prof-atag">
+                                <li>
+                                    <a href="#profile"> <i class="fas fa-user-alt"> </i> Profile</a></li>
+                                <li id="tasks" data-panel="panel1"><a href="#tasks"> <i
+                                            class="fas fa-tasks"> </i> Task</a></li>
+                                <li><a href="#review"><i class="fas fa-star-half-alt"></i> Reviews</a></li>
+                                <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Offers</a>
+                                </li>
+                                <li><a href="#"><i class="fas fa-cog"></i> Setting</a></li>
+                                <li><a href="#"><i class="fas fa-cog"></i> Logout</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+
+
+    </header>
+
+    <body>
+        <!-- section 0  -->
+        <!-- <br>
+<br>
+<br> -->
+        <section>
+            <div class="container mainbar">
+                <div class="subnav row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="col-1"><a href="#profile"><button class="btn btn-sm btn-primary"><i
+                                    class="fas fa-user-alt"></i>
+                                Profile</button></a></div>
+                    <div data-panel="panel1" class="col-1"><button class="btn btn-sm btn-primary"><i
+                                class="fas fa-tasks"></i>
+                            Tasks</button></div>
+                    <div class="col-1"><button class="btn btn-sm btn-primary"><i class="fas fa-hand-holding-usd"></i>
+                            Offers</button></div>
+                    <div class="col-1"><a href="#review"><button class="btn btn-sm btn-primary"><i class="fas fa-star-half-alt"></i>
+                            Reviews</button></a></div>
+                    <div class="col-4"></div>
+                    <div class="col-2"><button class="btn btn-block btn-primary"><i class="far fa-user-circle"></i>
+                            User</button></div>
+                    <div class="col-2"><button class="btn btn-block btn-primary"><i class="fas fa-envelope"></i>
+                            Inbox</button></div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="row justify-content-center profile-info">
+                <div class="col-md-8 ">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <div class="info1"> <i class="fas fa-exclamation-circle"> Notice</i>
+                                <p>Update your Troolr Profile URL so people can find you easily and you can share the
+                                    link with
+                                    anyone!</p>
+                                <div class="info2">
+                                    <p>Share your profile to get more customers</p> <button
+                                        class="btn btn-sm btn-primary"> Share
+                                        Your Profile Now </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-12">
+                        <div class="card " id="profile" name="profile">
+                            <img src="../assets/girl-2517252_640.jpg" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Lilly David</h5>
+                                <div class="col-sm- disply-icon">
+                                    <i class="fas fa-circle " style="color: green;"></i>
+                                    <i class="fas fa-envelope " style="color: #c75517;"></i>
+                                    <i class="fas fa-phone-square" style="color: #c75517;"></i>
+                                </div>
+                                <p class="card-text">
+                                    My name is Lilly David. I am an experienced Mobile Auto Machanic
+                                    serving the XpertBro! sinic 2010.
+                                </p>
+                                <a href="../src/profile.html" class="btn btn-info">View More</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card" style="height: 800px;">
+
+                            <div class="card-body">
+                                <h5 class="card-title"> <i class="far fa-images"></i> Gallery</h5>
+
+
+                                <div class="row ">
+                                    <img src="../assets/car-accident-1538175_640.jpg" alt="Snow" style="width:50%">
+                                    <img src="../assets/car-repair-362150_640.jpg" alt="Snow" style="width:50%">
+
+                                </div>
+                                <br>
+                                <div class="row ">
+                                    <img src="../assets/car-accident-1538175_640.jpg" alt="Snow" style="width:50%">
+                                    <img src="../assets/car-repair-362150_640.jpg" alt="Snow" style="width:50%">
+
+                                </div>
+                                <br>
+                                <a href="../src/profile.html" class="btn btn-info">See More</a>
+
+
+
+                            </div>
+                        </div>
+
+                        <br>
+
+
+                        <div class="card pro-edu">
+                            <div class="card-body education">
+                                <h5 class="card-title"><i class="fas fa-graduation-cap"></i> Education / Certifications
+                                </h5>
+                                <table class="bodyclass table table-striped table-bordered table-hover">
+
+                                    <tr>
+                                        <th>Level</th>
+                                        <th>Major</th>
+                                        <th>School/University</th>
+                                        <th>Year</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Masters</td>
+                                        <td>Computer Information Systms</td>
+                                        <td>STD</td>
+                                        <td>2019</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Masters</td>
+                                        <td>Computer Science</td>
+                                        <td>NEU</td>
+                                        <td>2018</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>BSCS</td>
+                                        <td>Software Engineering</td>
+                                        <td>FCU</td>
+                                        <td>2017</td>
+
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-2 pro-info2">
+                    <h5><i class="fas fa-star"></i>Profile Completion</h5>
+
+                    <p>Missing: Work History, Facebook, Linkedin, Instagram,
+                        Twitter, Website, Business
+                        Hours, Summary</p>
+
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6210.97848221308!2d-77.18597498479107!3d38.889926079571815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b4cf99eddddd%3A0xf24f6b666eab7f6e!2s119%20Rowell%20Ct%2C%20Falls%20Church%2C%20VA%2022046!5e0!3m2!1sen!2sus!4v1575249984667!5m2!1sen!2sus"
+                            frameborder="0" style="height: 500px;" allowfullscreen></iframe>
+
+                    </div>
+                    <div class="social-media">
+                        <h5>Share profile </h5>
+                        <i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i>
+                        <i class="fab fa-twitter-square fa-2x" style="color: #00aced;"></i>
+                        <i class="fab fa-linkedin fa-2x" style="color: #007fb1;"></i>
+
+                        <i class="fab fa-instagram fa-2x" style="color: #3f729b;"></i>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <section class="card-group">
+                    <div class="profile-card">
+                    
+                            <h3 style="padding-left: 10%; color: #c75517; padding-top: 50px;">
+                                Top Customer Reviews:</h3>
+                                <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-star" ></i><i class="fas fa-star"><i class="fas fa-star"></i></i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i> (15)</p>
+                                
+              <div class="col-12">
+                      
+                          <div class="image-conatiner">
+                          
+                                         <h5>By Robert M. on Oct, 27,2019   <i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i>
+          
+                                  </i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i></h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti!</p>
+                             
+                          <h5>By Robert M. on Oct, 27,2019  <i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i>
+          
+                          </i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i></h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti!</p>
+          
+                            
+                          </div>
+                  
+                  </div>
+              </div>
+              <div class="profile-card" id="review">
+                    
+                    <h3 style="padding-left: 10%; color: #c75517; padding-top: 50px;">
+                        Top Customer Reviews:</h3>
+                        <p >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-star" ></i><i class="fas fa-star"><i class="fas fa-star"></i></i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i> (15)</p>
+                        
+        <div class="col-12">
+              
+                  <div class="image-conatiner">
+                  
+                                 <h5>By Robert M. on Oct, 27,2019   <i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i>
+        
+                          </i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i></h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti!</p>
+                     
+                  <h5>By Robert M. on Oct, 27,2019  <i class="fas fa-star"></i><i class="fas fa-star"><i class="fas fa-star"></i>
+        
+                  </i><i class="fas fa-star"></i> </i><i class="fas fa-star"></i></i></h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, corrupti!</p>
+        
+                    
+                  </div>
+          
+          </div>
+        </div>
+            </section>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer bg-light">
+            <h6 class="text-center">Lorem ipsum dolor sit amet.</h6>
+    </body>
+
+
+    </footer>
+</body>
+
+</html>

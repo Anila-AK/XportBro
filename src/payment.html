@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>XpertBro! | Welcome</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../src/myjquery.js"></script>
+    <script src="../src/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <!-- here comes navbar  expand lg will allow 
+        <li> to disappear in mobile view -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <!-- to link logo image to somewhere a tag with brand class of BS -->
+                <a class="navbar-brand" href="/src/index.html">
+                    <img class="img-fluid" src="../assets/Picture1.png" width="100" height="40"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- displays icon for the menu dropdown in smaller size -->
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse  text-left" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Post A Task</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Browse Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="../src/contact.html">
+                                <i class="fas fa-envelope">
+                                </i></a>
+                        </li>
+
+                        <div class="btn-group dropleft">
+                            <a class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+
+                            </a>
+                            <div class="dropdown-menu prof-atag">
+                                <li>
+                                    <a href="#profile"> <i class="fas fa-user-alt"> </i> Profile</a></li>
+                                <li id="tasks" data-panel="panel1"><a href="#tasks"> <i
+                                            class="fas fa-tasks"> </i> Task</a></li>
+                                <li><a href="#review"><i class="fas fa-star-half-alt"></i> Reviews</a></li>
+                                <li><a href="#"><i class="fas fa-hand-holding-usd"></i> Offers</a>
+                                </li>
+                                <li><a href="#"><i class="fas fa-cog"></i> Setting</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+
+
+    </header>
+
+    <section>
+            <div class="payment">
+            <div class="payment-log">
+                <p class="changecolor">XpertBro</p>
+            </div>
+            
+            <h2>Payment Process!!</h2>
+            <div class="form">
+            <div class="cards space icon-rel">
+                <label class="label">Card Holder:</label>
+                <input type="text" class="input" placeholder="Card Holder" name="card_holder" id="">
+            </div>
+            <div class="cards space icon-rel">
+                    <label class="label">Card Number:</label>
+                    <input type="text" class="input" placeholder="Card Number" name="card_number" id="">
+                </div>
+                <div class="card-grp space icon-rel">
+                        <div class="card-item">
+                                <label class="label">Expiry Date:</label>
+                                <input type="text" class="input" placeholder="00/00"
+                                 name="expiry_date" id="">
+                            </div>
+                            <div class="card-item">
+                                    <label class="label">CVC:</label>
+                                    <input type="text" class="input" placeholder="000"
+                                     name="_cvc" id="">
+                                </div>
+                </div>
+            
+                <div class="btn paybtn">
+                 Pay   
+                </div>
+            </div>
+            
+            </div>
+            
+            
+            </section>
+            
+</body>
+
+</html>
